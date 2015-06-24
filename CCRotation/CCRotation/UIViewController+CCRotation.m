@@ -16,7 +16,7 @@ static const char kRealDeviceOrientationKey;
 static const char kRotationDelegateKey;
 static const char kNotfirstRotaitonDetectionKey;
 
-@implementation UIViewController ( CCRotation)
+@implementation UIViewController (CCRotation)
 
 - (CMMotionManager *)motionManager {
     return objc_getAssociatedObject(self, &kMotionManagerKey);

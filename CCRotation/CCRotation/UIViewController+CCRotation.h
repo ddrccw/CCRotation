@@ -18,7 +18,7 @@
 - (NSTimeInterval)preferredDelayedTimeOfRealDeviceOrientationDetection;  //初始化时，延迟多少s开始detect，默认是0
 @end
 
-@interface UIViewController ( CCRotation)
+@interface UIViewController (CCRotation)
 @property (strong, nonatomic) CMMotionManager *motionManager;
 @property (strong, nonatomic) NSOperationQueue *motionQueue;  //for motion detect
 @property (assign, nonatomic) UIDeviceOrientation realDeviceOrientation;
